@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    color: white;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.line {
+    width: 100px;
+    height: 1px;
+    background-color: red;
+}
+
+#nav {
+    width: 100%;
+    height: 140px;
+    /* background-color: ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#nav-part2 {
+    display: flex;
+    width: 65%;
+    /* background-color: aliceblue; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-part2 img {
+    width: 150px;
+    height: 60px;
+}
+
+#nav-part2 {
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+#nav-part2 i {
+    margin-left: 50px;
+}
+
+#container {
+    height: calc(100% - 140px);
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    position: relative;
+}
+
+#left {
+    width: 35%;
+    padding: 80px 40px;
+    height: 100%;
+    /* background-color: red; */
+}
+
+#center {
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 30px;
+}
+
+#center-bg {
+    /* position: a; */
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+    background-color: blue;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url('https://imgs.search.brave.com/XZtMSrTBtOaKgpvVyGnofx7-tzb28yxwI679jyWGm88/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTcx/MjQwMjE5L3Bob3Rv/L2NvbGEtY2xvc2Ut/dXAuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPUJXd2Q4NTVq/ckxfQ1dPMHpLMXBN/VVFJakFLS3U4NnJx/XzNOclhfVTl0M3M9');
+}
+
+
+#container img {
+    position: absolute;
+    height: 80%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+
+#left h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+#left span {
+    color: red;
+}
+
+#left p {
+    font-size: 15px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+#left button {
+    font-size: 18px;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    /* Ensure text is visible against the red background */
+    border: none;
+    /* Remove default border */
+    border-radius: 20px;
+    cursor: pointer;
+    /* Change cursor to pointer to indicate it's clickable */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color change */
+}
+
+#left button:hover {
+    background-color: darkred;
+    /* Darker shade for hover effect */
+}
+
+#left-part {
+    display: flex;
+    align-items: center;
+
+}
+
+#left i {
+    margin-right: 5px;
+    margin-left: 20px;
+    color: red;
+}
+
+#right {
+    width: 35%;
+    height: 100%;
+    background-color: black;
+    /* padding: 400px; */
+}
+
+#right-bg {
+    color: gray;
+    margin-top: 60%;
+    width: 300px;
+
+    margin-left: 20%;
+    /* background-color: lightblue; */
+}
+
+#right-bg .elem1 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#right-bg .elem1 h3 {
+    /* opacity: -2; */
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#line1 {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-bottom: 2px;
+}
+
+#elem3 {
+    margin-top: 10px;
+    color: gray;
+
+}
+
+#elem3 p {
+    color: gray;
+    font-size: 10px;
+    margin-top: 10px;
+}
